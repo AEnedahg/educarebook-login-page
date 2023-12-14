@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>EducareBook Login Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=0.8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="container__inner">
+        <div class="container__inner--left">
+          <header>
+            <img src="images/logo.svg" alt="logo" class="logo">
+          </header>
+          <fieldset>
+            <h1>Login now</h1>
+            <p>Hi, Welcome back 👋</p>
+            <form>
+              <button class="login-with-google">
+                <img class="google-icon" src="images/google-icon.svg" alt="google-icon">
+                <a href="#">
+                  Login with Google
+                </a>
+              </button>
+              <div class="form-divider">
+                <div class="left-line">
+
+                </div>
+                <p>or Login with Email</p>
+                <div class="right-line">
+
+                </div>
+              </div>
+              <label for="email">Email</label>
+              <input type="email" name="Email" id="email" placeholder="Enter your email id">
+              <label for="password">Password</label>
+              <div class="password-box">
+                <input type="password" name="Password" id="password" placeholder="Enter your password">
+                <i id="eye-icon" class="bi bi-eye-slash-fill"></i>
+              </div>
+              <div class="remember-me-forgot-password">
+                <div class="remember-me">
+                  <input type="checkbox" name="Remember choice" id="rememberme">
+                  <label class="rememberme-label" for="rememberme">Remember Me</label>
+                </div>
+                <a href="#">Forgot Password?</a>
+              </div>
+              <button class="login-btn">
+                <a href="#">Login</a>
+              </button>
+              <a class="register-create-signup">
+                Not registered yet? 
+                <span class="blue">Create an account</span>
+                <span class="pink">SignUp</span>
+              </a>
+            </form>
+          </fieldset>
+        </div>
+        <div class="container__inner--right">
+          <button class="signup-btn">
+            <a href="#">Sign Up</a>
+          </button>
+          <img class="login-illustration" src="images/login-illustration-png.png" alt="login-illustration">
+        </div>
+      </div>
+    </div>
+    <script src="script.js">
+
+    </script>
+  </body>
+</html>
