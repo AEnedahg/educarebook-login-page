@@ -24,4 +24,4 @@ https://www.figma.com/file/FCAtkpKQNekaEsqF1mkImW/Login-page-%7C-Login-page-for-
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/login-page.git
+   git clone https://github.com/AEnedahg/educarebook-login-page.git
